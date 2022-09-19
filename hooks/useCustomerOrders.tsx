@@ -26,7 +26,7 @@ function useCustomerOrders(userId: String) {
         setOrders(customerOrders);
     }, [data, userId])
 
-    return { loading, error, data }
+    return { loading, error, orders }
 }
 
 export default useCustomerOrders
